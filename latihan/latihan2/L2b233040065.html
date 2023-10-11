@@ -1,0 +1,101 @@
+<html>
+    <head>
+        <title>Form + Table</title>
+    </head>
+    <body>
+        <table bordercolor="#595959" width="40%" border="1" cellpadding="3" cellspacing="0.5">
+            <tr bgcolor="grey">
+                <td colspan="3" align="center"><b>INPUT DATA MAHASISWA</b></td>
+            </tr>
+            <tr>
+                <td>Username</td>
+                <td>:</td>
+                <td>
+                    <form>
+                        <input type="text" name="Username">
+                    </form>
+                </td>
+            </tr>
+            <tr>
+                <td>Password</td>
+                <td>:</td>
+                <td>
+                    <form>
+                        <input type="password" name="Password">
+                    </form>
+                </td>
+            </tr>
+            <tr>
+                <td>Fullname</td>
+                <td>:</td>
+                <td>
+                    <form>
+                        <input type="text" name="Fullname">
+                    </form>
+                </td>
+            </tr>
+            <tr>
+                <td>E-mail</td>
+                <td>:</td>
+                <td>
+                    <form>
+                        <input type="text" name="E-mail">
+                    </form>
+                </td>
+            </tr>
+            <tr>
+                <td>Agama</td>
+                <td>:</td>
+                <td>
+                    <select>
+                        <option value="Agama">--Pilih Agama--</option>
+                        <option value="Islam">Islam</option>
+                        <option value="Kristen Protestan">Kristen Protestan</option>
+                        <option value="Kristen Katolik">Kristen Katolik</option>
+                        <option value="Buddha">Buddha</option>
+                        <option value="Hindu">Hindu</option>
+                        <option value="Lainnya">Lainnya</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Jenis Kelamin</td>
+                <td>:</td>
+                <td>
+                    <form>
+                        <input type="radio" name="Jenis Kelamin" value="Laki-laki"/> Laki-laki
+                        <input type="radio" name="Jenis Kelamin" value="Perempuan"/> Perempuan
+                    </form>
+                </td>
+            </tr>
+            <tr>
+                <td>Hobi</td>
+                <td>:</td>
+                <td>
+                    <form>
+                        <input type="checkbox" name="Hobi" value="Musik"/> Musik
+                        <input type="checkbox" name="Hobi" value="Olahraga"/> Olahraga
+                        <input type="checkbox" name="Hobi" value="Gaming"/> Gaming
+                        <input type="checkbox" name="Hobi" value="Lainnya"/> Lainnya
+                    </form>
+                </td>
+            </tr>
+            <tr>
+                <td>Profil Singkat</td>
+                <td>:</td>
+                <td>
+                    <form>
+                        <textarea name="Profil Singkat" rows="5" cols="50" rows="10"></textarea>
+                    </form>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="3" align="right">
+                    <form>
+                        <input type="submit" name="input" value="input"/>
+                    </form>
+                </td>
+            </tr>
+        </table>
+    </body>
+</html>
