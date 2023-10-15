@@ -37,13 +37,13 @@ h3 {
 }
 
 .mark {
-    color: darkblue;
+    color: blue;
     text-decoration: none;
     font-weight: bold;
 }
 
 .mark:hover {
     color: white;
-    background-color: darkblue;
+    background-color: blue;
     text-decoration: none;
 }
