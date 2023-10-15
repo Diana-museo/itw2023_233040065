@@ -1,0 +1,42 @@
+body {
+    background-image: url(image/background.png);
+    background-repeat: repeat-x;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h1 {
+    text-align: center;
+    color: darkblue;
+    font-family: Comic Sans MS;
+}
+
+h4 {
+    font-style: italic;
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+}
+
+.diana {
+    color: red;
+    text-decoration: underline;
+}
+
+.p1 {
+    text-align: center;
+    color: orange;
+}
+
+.p2 {
+    
+    text-align: center;
+    line-height: 2;
+}
+
+.mark {
+    color: darkblue;
+    text-decoration: none;
+    font-weight: bold;
+}

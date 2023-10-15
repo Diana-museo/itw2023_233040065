@@ -1,0 +1,33 @@
+body {
+    background-color: aqua;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h1 {
+    text-align: center;
+    color: darkblue;
+    font-family: Comic Sans MS;
+}
+
+h4 {
+    font-style: italic;
+    text-align: right;
+}
+
+h3 {
+    text-align: left;
+}
+
+.diana {
+    color: white;
+}
+
+.p1 {
+    color: orange;
+    text-align: center;
+}
+
+.p2 {
+    text-align: center;
+    line-height: 2;
+}
