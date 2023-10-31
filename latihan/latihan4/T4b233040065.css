@@ -1,0 +1,241 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*style*/
+
+@font-face {
+	font-family: 'OldLondon';
+	src: url('font/OldLondon.ttf');
+}
+
+@font-face {
+	font-family: 'Reg Leyendo';
+	src: url(font/LeyendoDEMO-Regular.otf);
+}
+
+@font-face {
+	font-family: 'Bold Leyendo';
+	src: url(font/LeyendoDEMO-Bold.otf);
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+}
+
+.container {
+    width: 1000px;
+    margin: auto;
+    background-color: white;
+}
+
+.rec {
+	padding: 20px;
+    /* background-image: linear-gradient(to right, #3399ff, #66ccff, #ccffff); */
+	border-bottom: 3px solid #001a33;
+}
+
+td {
+	width: 500px;
+}
+
+.judul {
+    font-size: 60px;
+	font-family: 'OldLondon';
+}
+
+td ul li {
+	display: inline-block;
+	text-align: right;
+	margin-top: 20px;
+	margin-right: 5px;
+	margin-left: 7%;
+	color: white;
+	font-weight: 500;
+}
+
+td ul li.img {
+	width: 50px;
+    height: 50px;
+    background-color: #001a33;
+    border-radius: 50%;
+	overflow: hidden;
+}
+
+td ul li a {
+	text-decoration: none;
+	color: #001a33;
+}
+
+td ul li a:hover {
+	text-decoration: underline;
+	color: rgb(8, 84, 122);
+}
+
+.genre {
+	background-color: #001a33;
+	border-bottom: 3px solid #001a33;
+}
+
+.genre ul li {
+	font-size: 15px;
+	display: inline-block;
+	text-align: right;
+	margin-top: 5px;
+	margin-right: 10px;
+	margin-left: 10px;
+	margin-bottom: 5px;
+	color: white;
+}
+
+.genre ul li a {
+	text-decoration: none;
+	color: white;
+}
+
+.genre ul li a:hover {
+	text-decoration: underline;
+}
+
+.content {
+	font-family: 'Reg Leyendo';
+}
+
+h1 {
+	font-size: 35px;
+	font-weight: bold;
+	font-family: 'Bold Leyendo';
+	padding: 15px;
+}
+
+.by {
+	font-size: 15px;
+	padding-left: 20px;
+}
+
+.by a {
+	text-decoration: none;
+	color: #5584af;
+}
+
+.by a:hover {
+	text-decoration: underline;
+}
+
+.date {
+	font-size: 15px;
+	padding-left: 20px;
+	margin-top: -20px;
+}
+
+.hero {
+	height: 350px;
+	width: 950px;
+	margin-left: auto;
+	margin-right: auto;
+	background-image: url(image/dna.jpg);
+	background-size: cover;
+	background-position: 0 -50px;
+}
+
+p {
+	font-size: 18px;
+	margin: auto;
+	padding: 10px;
+	line-height: 25px;
+}
+
+.HE {
+	text-decoration: none;
+	font-weight: bold;
+	color: #001a33;
+}
+
+.HE:hover {
+	text-decoration: underline;
+}
+
+.hero2 {
+	height: 350px;
+	width: 950px;
+	margin-left: auto;
+	margin-right: auto;
+	background-image: url(image/researcher.jpg);
+	background-size: cover;
+	background-position: 0 -150px;
+}
+
+.Xia {
+	text-decoration: none;
+	font-weight: bold;
+	color: #001a33;
+}
+
+.Xia:hover {
+	text-decoration: underline;
+}
+
+.source {
+	padding: 20px;
+	font-size: 15px;
+	background-color: #001a33;
+	border-bottom: 3px solid #001a33;
+	color: white;
+	font-weight: bold;
+	font-family: 'Mono';
+}
+
+.source a {
+	text-decoration: none;
+	color: #5584af;
+}
+
+.source a:hover {
+	text-decoration: underline;
+}
