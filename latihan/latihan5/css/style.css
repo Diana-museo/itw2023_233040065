@@ -58,7 +58,7 @@ h1 {
 .gallery li {
     background-color: white;
     border: 0.5px solid #bbb;
-    background-clip: padding-box;
+    /* background-clip: padding-box; */
     box-shadow: 0 4px 15px -4px rgba(0, 0, 0, 0.6);
 }
 
