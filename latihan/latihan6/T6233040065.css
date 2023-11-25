@@ -46,6 +46,7 @@ nav ul li a {
     color: rgb(90, 130, 205);
     text-decoration: none;
     font-size: 0.8em;
+    font-weight: bold;
 }
 
 nav ul li a:hover {
@@ -129,7 +130,7 @@ nav ul li a:hover {
         justify-content: space-evenly;
         flex-direction: column;
         align-items: center;
-        background-color: rgb(45, 65, 102);
+        background-image: linear-gradient(to bottom, rgb(45, 65, 102) 50%, rgb(83, 104, 148) 95%);
         z-index: -1;
         transform: translateX(100%);
         transition: all 1s;
