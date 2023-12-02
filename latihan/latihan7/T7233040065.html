@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diana-Museo ART</title>
+    <link rel="stylesheet" href="T7233040065.css" />
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <div class="hero">
+               <h2 class="heading">Diana-Museo Art Shop</h2>
+               <p class="sub-heading">Line-art BnW Only & Full Coloring</p>
+            </div>
+            <div class="features feature-1">
+                <span>
+                    <h4 class="price">IDR 70K</h4>
+                    <p class="item">Line-art & BnW Only</p>
+                </span>
+            </div>
+            <div class="features feature-2">
+                <span>
+                    <h4 class="price">IDR 200K</h4>
+                    <p class="item">Full Coloring</p>
+                </span>
+            </div>
+        </header>
+
+        <nav class="menu">
+            <div class="menu-toggle">
+                <input type="checkbox" />
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="brand">
+                <h1>Diana-Museo Art</h1>
+            </div>
+            <ul class="menu-list">
+                <li><a href="">Home</a></li>
+                <li><a href="">Products</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">Gallery</a></li>
+            </ul>
+        </nav>
+
+        <section class="services">
+            <div class="service">
+                <div class="icon">🎨</div>
+                <h3>Tutorial</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corrupti sit optio dolores eligendi mollitia adipisci!</p>
+            </div>
+            <div class="service">
+                <div class="icon">🖌</div>
+                <h3>Online Course</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corrupti sit optio dolores eligendi mollitia adipisci!</p>
+            </div>
+            <div class="service">
+                <div class="icon">📧</div>
+                <h3>Collaboration & Endorsement</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corrupti sit optio dolores eligendi mollitia adipisci!</p>
+            </div>
+            <div class="service">
+                <div class="icon">🛒</div>
+                <h3>Comission Art</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corrupti sit optio dolores eligendi mollitia adipisci!</p>
+            </div>
+        </section>
+
+        <section class="gallery">
+            <h2>Gallery</h2>
+            <img src="img/4-arno-senoner-hWaF-CY_UME-unsplash.jpg" alt="">
+            <img src="img/5-bianca-fazacas-E6jrBriQTzE-unsplash.jpg" alt="">
+            <img src="img/6-claus-grunstaudl-qt4sH60mR1k-unsplash.jpg" alt="">
+            <img src="img/7-craig-zdanowicz-DjbrQ9fUfXI-unsplash.jpg" alt="">
+            <img src="img/8-dawid-tkocz-FzduHt2qno4-unsplash.jpg" alt="">
+            <img src="img/9-mahmut-yildiz-qwq2cy8sxbs-unsplash.jpg" alt="">
+            <img src="img/10-refargotohp-NFnTPCIzGuo-unsplash.jpg" alt="">
+            <img src="img/11-silvia-trigo-WjiPgEQi1ZA-unsplash.jpg" alt="">
+            <img src="img/12-tania-mousinho-EtuPrFXpuGY-unsplash.jpg" alt="">
+            <img src="img/13-zeynep-sumer-P8AkvuRN8bE-unsplash.jpg" alt="">
+        </section>
+    </div>
+    <script>
+        const menuToggle = document.querySelector('.menu-toggle input');
+        const nav = document.querySelector('nav ul');
+
+        menuToggle.addEventListener('click', function() {
+            nav.classList.toggle('slide');
+        });
+    </script>
+</body>
+</html>
